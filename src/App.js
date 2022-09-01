@@ -1,6 +1,6 @@
 import ButtonCounter from './components/ButtonCounter';
 import Navbar from "./components/Navbar";
-import Racers from './components/Racers';
+// import Racers from './components/Racers';
 import RacersClass from './components/RacersClass';
 import { Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
