@@ -21,6 +21,9 @@ export default function Login(props) {
             // Store the token and expiration in localStorage
             localStorage.setItem('token', data.token);
             localStorage.setItem('expiration', data.token_expiration);
+
+            // Change the loggedIn state to true
+            props.login();
     
             // Flash success message and navigate back to home
             props.flashMessage('You have successfully logged in', 'success');
