@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Racers from './components/Racers';
 import RacersClass from './components/RacersClass';
 import { Routes, Route } from 'react-router-dom';
+import Register from './components/Register';
 
 function App(props) {
     console.log('Hello')
@@ -13,6 +14,7 @@ function App(props) {
                 <Routes>
                     <Route path='/' element={<ButtonCounter />} />
                     <Route path='/standings' element={<RacersClass />} />
+                    <Route path='/register' element={<Register />} />
                 </Routes>
             </div>
         </>
